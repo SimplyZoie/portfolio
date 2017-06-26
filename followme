@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  
+  </script>
+  </head>
+  <style type="text/css">
+ ul{
+ list-type-type:none;
+ margin: 0;
+ padding:0;
+ overflow:hidden;
+   }
+   
+   a:link,a:visited{
+   display:block;
+   front-weight:bold;
+   color:#FFFFFF;
+   background-color:gray;
+   width:120px;
+   text-align:center;
+   padding:4px;
+     text-transform:uppercase;
+   }
+   
+   a:hover,a:active{
+     background-color:white;
+       text-decoration:none;
+   }
+   li{
+ float:left;   
+   }
+</style>
+</head>
+<body>
+  <ul>
+    <li><a href="#home">HOME</a></li>
+    <li><a href="allaboutme.html">ABOUT ME</a></li>
+    <li><a href="myblog.html">My Blog Posts</a></li>
+    <li><a href="follow me">Follow Me</a></li>
+    <li><a href="discussion board">Discussion Board</a></li>
+    <li><a href="gallery">Gallery</a></li>
+    <li><a href="create">Create</a></li>
+
+  </ul> 
+  <body>
+  <h1> Follow Me </h1>
+  <p> Want to stay up to date with me! Follow me on social media @SimplyZoie22 </p>
