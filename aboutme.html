@@ -63,15 +63,45 @@
  
 
 
- <header>
-   <h1> Portfolio </h1>
-   
-   <h2> Girls Who Code Projects </h2>
-   
-   <h3> Scrath: Week 1 </h3>
-   
-   <h4> Python: Week 2 </h4>
-   
-   <h5> Robots: Week 3 </h5>
+<script type="text/javascript">
+  <!-->
+    var image1=new Image()
+  image1.src="beach.jpg"
+  var image2=new Image()
+  image2.src="iphonetag.jpg"
+  var image3=new Image ()
+  image3.src="channel.jpg"
+  var image4=new Image ()
+  image4.src="youtube.jpg"
+  var image5=new Image ()
+  image5.src="wind.jpg"
+  var image6=new Image ()
+  image6.src="tech.jpg"
+  var image7=new Image ()
+  image7.src="simply.jpg"
+  var image8=new Image ()
+  image8.src="simply2.jpg"
+  var image9=new Image ()
+  image9.src="logo.jpg"
+  var image10=new Image ()
+  image10.src="channel.jpg"
+  //-->
+</script>
+  <body>
+    <img src="beach.jpg" name="slide" width="400" height="400">
+    <script type="text/javascript">
+      <!--
+        var step=1 
+      function slideit(){
+        document.images,slide,src=eval("image"+step+".src")
+        if(step<3)
+          step++
+        else
+          step=1
+        setTimeout("slideit()",2500)
+      }
+      slideit()
+      //-->
+  
 </body>
 </html>
